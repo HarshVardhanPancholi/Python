@@ -1,9 +1,9 @@
-#Pro-8    ATM with EXCEL
+#Program    ATM with EXCEL
 
 
 import xlrd
 import time
-wb=xlrd.open_workbook(r'C:\Users\HP\Desktop\PYTHON\Excel\abcd.xlsx')
+wb=xlrd.open_workbook(r'ADDRESS OF EXCEL FILE\NAME OF FILE.xlsx')
 s=wb.sheet_by_index(0)
 u=s.col_values(1)
 p=s.col_values(0)
